@@ -1,0 +1,10 @@
+services:
+  pythonapp:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    stdin_open: true
+    tty: true
+    working_dir: /usr/app/src
+    volumes:
+      - .:/usr/app/src
