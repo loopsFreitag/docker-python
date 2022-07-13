@@ -13,6 +13,3 @@ to run it:
     docker exec -it pyteste-pythonapp-1 python3 ./main.py
 
 enjoy!
-
-
-todo:not import all files to the container
