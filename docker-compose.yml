@@ -7,4 +7,4 @@ services:
     tty: true
     working_dir: /usr/app/src
     volumes:
-      - .:/usr/app/src
+      - ./app:/usr/app/src
