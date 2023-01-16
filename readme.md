@@ -1,15 +1,7 @@
-how to execute:
-
-first:
-
-    docker-compose build
-
-then:
+run:
 
     docker-compose up
 
-to run it:
+then:
 
     docker exec -it pyteste-pythonapp-1 python3 ./main.py
-
-enjoy!
