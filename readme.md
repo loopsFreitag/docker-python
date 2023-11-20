@@ -4,4 +4,4 @@ run:
 
 then:
 
-    docker exec -it pyteste-pythonapp-1 python3 ./main.py
+    docker exec -it app python3 ./main.py
